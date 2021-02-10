@@ -1,4 +1,5 @@
 {
  "@context": "http://schema.org",
- "@type": "Event"
+ "@type": "Event",
+ "@id": "https://www2.duceppe.com/spectacles/lamour-est-un-dumpling/",
 }
