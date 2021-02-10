@@ -1,5 +1,189 @@
 {
- "@context": "http://schema.org",
- "@type": "Event",
- "@id": "https://www2.duceppe.com/spectacles/lamour-est-un-dumpling/",
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "@id": "https://www2.duceppe.com/spectacles/Incendies/",
+  "name": "Incendies en streaming - Le sang des promesses partie II",
+  "description": "La pièce Incendies, captée dans le cadre de la présentation  de la tétralogie Le Sang des promesses au théâtre Duceppe en 2019 vous est présenté en ligne du 1er au 30 mars 2021.",
+  "startDate": "2021-03-03T05:00:00.000Z",
+  "endDate": "2021-03-24T04:00:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+
+  "location": {
+    "@type": "VirtualLocation",
+    "url": "https://www2.duceppe.com/spectacles/Incendies/"
+  },
+
+  "image": [
+    "https://www2.duceppe.com/wp-content/uploads/2020/11/Incendies1.jpg",
+    "https://www2.duceppe.com/wp-content/uploads/2020/11/Incendies2.jpg",
+    "https://www2.duceppe.com/wp-content/uploads/2020/11/Incendies3.jpg"
+  ],
+
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www2.duceppe.com/spectacles/Incendies/",
+    "price": "30",
+    "priceCurrency": "CAD",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2021-02-15T05:00:00.000Z"
+  },
+
+  "organizer": {
+    "@type": "Organization",
+    "name": "Duceppe",
+    "url": "https://duceppe.com/",
+      "sameAs": [
+      "https://www.facebook.com/Duceppe/",
+      "https://twitter.com/DUCEPPE",
+      "https://www.youtube.com/channel/UCSgBDWz_UDbEYOQSV5Evzcg",
+      "https://www.instagram.com/theatre_duceppe/",
+      "https://www.linkedin.com/company/duceppe/"
+      ]
+  },
+
+  "performer": [
+
+    {
+    "@type": "PerformingGroup",
+    "name": "La Compagnie Jean Duceppe",
+    "sameAs": [
+      "https://fr.wikipedia.org/wiki/Compagnie_Jean-Duceppe"
+      ]
+    },
+
+    {
+    "@type": "Person",
+    "name": "Claude Legault",
+    "sameAs": [
+      "https://fr.wikipedia.org/wiki/Claude_Legault",
+      "https://www.imdb.com/name/nm0499218/",
+      "https://www.wikidata.org/wiki/Q2977696",
+      "https://isni.org/isni/0000000078519196",
+      "http://viaf.org/viaf/88100296"
+      ]
+    },
+
+
+    {
+    "@type": "Person",
+    "name": "Guylaine Tremblay",
+      "sameAs": [
+      "https://www.facebook.com/Guylaineofficielle",
+      "https://en.wikipedia.org/wiki/Guylaine_Tremblay",
+      "https://isni.org/isni/0000000092999034",
+      "https://www.imdb.com/name/nm0871914/"
+      ]
+    }
+
+  ],
+
+  "contributor": [
+
+    {
+      "@type": "Person",
+      "name": "Robert Lepage",
+      "sameAs": [
+        "https://www.britannica.com/biography/Robert-Lepage",
+        "https://en.wikipedia.org/wiki/Robert_Lepage",
+        "https://www.wikidata.org/wiki/Q1341481",
+        "https://isni.org/isni/0000000108003714"
+        ]
+    },
+
+    {
+      "@type": "Person",
+      "name": "Véronique Côté",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/V%C3%A9ronique_C%C3%B4t%C3%A9",
+        "https://isni.org/isni/0000000370883753",
+        "http://viaf.org/viaf/250285405",
+        "https://www.wikidata.org/wiki/Q55722978"
+        ]
+    }
+
+  ],
+
+
+ "workPerformed": {
+  "@type": "CreativeWork",
+  "name": "Incendies",
+  "abstract": "Jeanne enseigne les mathématiques pures. Son frère, Simon, fait des combats de boxe. Leur mère, Nawal Marwan, vient de mourir. ... Les jumeaux ont été conçus en prison alors que leur mère, opposante à la milice, y est torturée et violée par un seul homme durant de longues années.",
+  
+  "sameAs": [
+    "https://fr.wikipedia.org/wiki/Incendies_(pi%C3%A8ce_de_th%C3%A9%C3%A2tre)",
+    "https://en.wikipedia.org/wiki/Incendies_(play)",
+    "https://www.wikidata.org/wiki/Q577474"
+    ],
+
+  "contributor": [
+    {
+    "@type": "Person",
+    "name": "Wajdi Mouawad",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q733091",
+      "https://en.wikipedia.org/wiki/Wajdi_Mouawad",
+      "http://www.canadiantheatre.com/dict.pl?term=Wajdi%20Mouawad",
+      "https://www.imdb.com/name/nm1416431/",
+      "https://theatredaujourdhui.qc.ca/wajdi-mouawad"
+      ]
+    }
+    ]
+  },
+
+  "superevent": {
+    "@type": "Event",
+    "name": "Le sang des promesses, tétralogie complète en streaming",
+    "description": "La tétralogie Le Sang des promesses, présentée au théâtre Duceppe en 2019 vous est présentée en ligne du 1er au 30 mars 2021.",
+    "startDate": "2019-03-03T05:00:00.000Z",
+    "endDate": "2021-03-24T04:00:00.000Z",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+
+    "location": {
+      "@type": "VirtualLocation",
+      "url": "https://www2.duceppe.com/spectacles/Lesangdespromesses/"
+    },
+
+    "image": [
+      "https://www2.duceppe.com/wp-content/uploads/2020/11/Lesangdespromesses1.jpg",
+      "https://www2.duceppe.com/wp-content/uploads/2020/11/Lesangdespromesses2.jpg",
+      "https://www2.duceppe.com/wp-content/uploads/2020/11/Lesangdespromesses3.jpg"
+    ],
+
+    "offers": {
+      "@type": "Offer",
+      "url": "https://www2.duceppe.com/spectacles/Lesangdespromesses/",
+      "price": "0",
+      "priceCurrency": "CAD",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2021-02-15T05:00:00.000Z"
+    },
+
+    "organizer": {
+      "@type": "Organization",
+      "name": "Duceppe",
+      "url": "https://duceppe.com/",
+        "sameAs": [
+        "https://duceppe.com/",
+        "https://www.facebook.com/Duceppe/",
+        "https://twitter.com/DUCEPPE",
+        "https://www.youtube.com/channel/UCSgBDWz_UDbEYOQSV5Evzcg",
+        "https://www.instagram.com/theatre_duceppe/",
+        "https://www.linkedin.com/company/duceppe/"
+        ]
+    },
+
+    "performer": [
+      {
+      "@type": "PerformingGroup",
+      "name": "La Compagnie Jean Duceppe",
+      "sameAs": [
+        "https://fr.wikipedia.org/wiki/Compagnie_Jean-Duceppe"
+        ]
+      }
+    ]
+
+  }
+
 }
