@@ -104,9 +104,46 @@
 
   ],
 
+ "comment": [
+
+    {
+      "@type": "Comment",
+      "author": {
+        "@type": "Person",
+        "name": "Geneviève Bouchard",
+        "worksFor" : "Le Soleil"
+      },
+      "name" : "«Incendies»: toujours brûlant de pertinence",
+      "abstract": " La directrice artistique du Trident, Anne-Marie Olivier, voyait du sens dans l’idée de remonter «Incendies» de Wajdi Mouawad, 15 ans après sa création. À cause de l’état du monde et d’une violence qui a rattrapé notre ville, a-t-elle évoqué juste avant la première de jeudi. En sortant de la représentation, il a été difficile de ne pas lui donner raison. Mis en scène par Marie-Josée Bastien et porté par une très solide distribution, ce puissant texte ancré dans la guerre, la famille et un espoir de lendemains meilleurs résonne encore fort.",
+      "url": "https://www.lesoleil.com/arts/theatre/incendies-toujours-brulant-de-pertinence-c3cc83e91d7ec07812a0478ce7c3fcff"
+    },
+
+    {
+      "@type": "Comment",
+      "author": {
+        "@type": "Person",
+        "name": "Simon Lambert",
+        "worksFor" : "Le Devoir"
+      },
+      "name" : "Incendies: au coeur des ténèbres",
+      "abstract": "Le drame imaginé par Wajdi Mouawad porte les contradictions humaines à leur paroxysme.",
+      "url": "https://www.ledevoir.com/culture/theatre/522567/incendies-au-coeur-des-tenebres"
+    },
+
+    {
+      "@type": "Comment",
+      "author": {
+        "@type": "Person",
+        "name": "Spectratrice sur Facebook"
+      },
+      "text": "Texte du commentaire"
+    }
+    
+  ],
+
 
  "workPerformed": {
-  "@type": "CreativeWork",
+  "@type": "creativeWork",
   "name": "Incendies",
   "abstract": "Jeanne enseigne les mathématiques pures. Son frère, Simon, fait des combats de boxe. Leur mère, Nawal Marwan, vient de mourir. ... Les jumeaux ont été conçus en prison alors que leur mère, opposante à la milice, y est torturée et violée par un seul homme durant de longues années.",
   
@@ -129,10 +166,12 @@
       ]
     }
     ]
-  },
 
-  "superevent": {
+    },
+
+  "superEvent": {
     "@type": "Event",
+    "@id": "https://www2.duceppe.com/spectacles/Lesangdespromesses/",
     "name": "Le sang des promesses, tétralogie complète en streaming",
     "description": "La tétralogie Le Sang des promesses, présentée au théâtre Duceppe en 2019 vous est présentée en ligne du 1er au 30 mars 2021.",
     "startDate": "2019-03-03T05:00:00.000Z",
@@ -185,5 +224,5 @@
     ]
 
   }
-
+  
 }
